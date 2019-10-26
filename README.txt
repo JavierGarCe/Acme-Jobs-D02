@@ -8,7 +8,12 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-This is the Starter-Project project, which is intended to be a core learning asset for the students
-who have enroled the Design and Testing subject of the Software Engineering curriculum of the 
-University of Sevilla.  This project provides a template our students can use to get their projects 
-up and running very quickly.
+This is the Acme-Jobs project, which is developed in Design and Testing 1 subject
+of Software Engineering at the University of Sevilla. This project is intended to
+develop a typical small- to mid-scale web information system.
+The members of the project are:
+	.Javier Garcia Cerrada
+	.Juan Fernandez Fernandez
+	.Estefania Ganfornina Triguero
+	.Fernando Romero Rioja
+	.Francisco Jose Parejon Barrios

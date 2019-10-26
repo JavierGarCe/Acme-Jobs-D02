@@ -10,14 +10,13 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #99D9EA  
 
 # master.welcome ##############################################################
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before has it bee easier to get your \
-	project up and running!
+	Welcome to Acme Jobs! Your job mate!
 
 # master.menu #################################################################
 
@@ -29,7 +28,29 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.javier-favourite-link = Javier's favourite link
+master.menu.anonymous.franFavourite-link = Fran's Favourite link
+master.menu.anonymous.Juanfavourite-link = Juan's favourite link
+master.menu.anonymous.fernandoFavourite-link = Fernando´s favourite link
+master.menu.anonymous.estefania-link = Estefania's favourite link 
+
+master.menu.anonymous.listShouts = List shouts
+master.menu.anonymous.shout = Shout!
+
+master.menu.anonymous.listPerejonBulletins = List PerejonBulletins
+master.menu.anonymous.PerejonBulletin = Create PerejonBulletin!
+
+master.menu.anonymous.listRomeroBulletins = List RomeroBulletins
+master.menu.anonymous.romeroBulletin = Create RomeroBulletin!
+
+master.menu.anonymous.listFernandezBulletins = List FernandezBulletins
+master.menu.anonymous.FernandezBulletin = Create FernandezBulletin
+
+master.menu.anonymous.listGarciaBulletins = List GarciaBulletins
+master.menu.anonymous.createGarciaBulletin = Create GarciaBulletin!
+
+master.menu.anonymous.ganfornina-bulletins = List GanforninaBulletins
+master.menu.anonymous.ganfornina-bulletin = Create GanforninaBulletin!
 
 # master.menu.administrator ###################################################
 

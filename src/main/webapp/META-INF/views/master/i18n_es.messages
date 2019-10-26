@@ -10,15 +10,14 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #99D9EA
 
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
-
+	Bienvenidos a Acme Jobs! Tu compañero de trabajo!
+	
 # master.menu #################################################################
 
 master.menu.home = Inicio
@@ -29,7 +28,29 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.javier-favourite-link = Enlace favorito de Javier
+master.menu.anonymous.franFavourite-link = Enlace favorito de Fran
+master.menu.anonymous.Juanfavourite-link = Enlace favorito de Juan
+master.menu.anonymous.fernandoFavourite-link= Enlace favorito de Fernando
+master.menu.anonymous.estefania-link = Enlace favorito de Estefania
+
+master.menu.anonymous.listShouts = Lista de gritos
+master.menu.anonymous.shout = ¡Gritar!
+
+master.menu.anonymous.listPerejonBulletins = Lista de Boletin Perejon
+master.menu.anonymous.PerejonBulletin = ¡Crear Boletin Perejon!
+
+master.menu.anonymous.listRomeroBulletins = Lista de Boletin Romero
+master.menu.anonymous.romeroBulletin = ¡Crear Boletin Romero!
+
+master.menu.anonymous.listFernandezBulletins = Lista de Boletin Fernandez
+master.menu.anonymous.FernandezBulletin = ¡Crear Boletin Fernandez!
+
+master.menu.anonymous.listGarciaBulletins = Lista de Boletin Garcia
+master.menu.anonymous.createGarciaBulletin = ¡Crear Boletin Garcia!
+
+master.menu.anonymous.ganfornina-bulletins = Lista de Boletin Ganfornina
+master.menu.anonymous.ganfornina-bulletin = ¡Crear Boletin Ganfornina!
 
 # master.menu.administrator ###################################################
 

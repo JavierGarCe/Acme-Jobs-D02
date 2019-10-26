@@ -27,8 +27,20 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `fernandez_bulletin`;
+
+    drop table if exists `ganfornina_bulletin`;
+
+    drop table if exists `garcia_bulletin`;
+
     drop table if exists `provider`;
+
+    drop table if exists `romero_bulletin`;
+
+    drop table if exists `shout`;
 
     drop table if exists `user_account`;
 
     drop table if exists `hibernate_sequence`;
+
+    drop table if exists `perejon_bulletin`;
