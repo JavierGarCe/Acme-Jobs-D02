@@ -367,4 +367,21 @@ perejonBulletin
 + moment: Date [Temporal (TIMESTAMP),Past}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>12</x>
+      <y>390</y>
+      <w>234</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Offer
+--
++ title:String{NotBlank}
++ moment: Date{Temporal(TIMESTAMP),Past}
++ deadline: Date{Temporal(TIMESTAMP)}
++ reward: Money
++ ticker: String{Not Blank, Pattern(^O[a-zA-Z]{4}-[0-9]{5}$)}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
