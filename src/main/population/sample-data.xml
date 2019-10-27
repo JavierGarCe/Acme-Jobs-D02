@@ -178,4 +178,12 @@
 		<property name="reward" value="pounds 1568.00"/>
 		<property name="ticker" value="OLSSW-12258"/>
 	</bean>
+	
+	<bean id="offer04" class="acme.entities.offers.Offer">
+		<property name="title" value="Timed out offer"/>
+		<property name="moment" value="2019/10/24 15:30"/>
+		<property name="deadline" value="2019/10/26 00:00"/>
+		<property name="reward" value="pounds 1588.35"/>
+		<property name="ticker" value="OKJGH-12544"/>
+	</bean>
 </beans>
