@@ -49,8 +49,9 @@
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listGarciaBulletins" action="/anonymous/garcia-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createGarciaBulletin" action="/anonymous/garcia-bulletin/create"/>
-		
-      
+			
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.listCompanyRecords" action="/anonymous/company-record/list"/>
 		</acme:menu-option>
 			
       

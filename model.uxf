@@ -367,4 +367,26 @@ perejonBulletin
 + moment: Date [Temporal (TIMESTAMP),Past}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>402</y>
+      <w>306</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;
+CompanyRecord
+--
++name: String{NotBlank}
++sector: String{NotBlank}
++ceo: String{NotBlank}
++activities: String{NotBlank}
++website: String{URL,NotBlank}
++phone:String{Pattern(regexp="^([+][0-9]{1,3}\s)?([(][0-9]{1,4}[)]\s)?[0-9]{6,10}$")}
++inc:Boolean
++stars:Integer{Range(0,5)}
++email:String{NotBlank,Email}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
