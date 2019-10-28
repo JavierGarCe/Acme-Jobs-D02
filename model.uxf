@@ -367,4 +367,21 @@ perejonBulletin
 + moment: Date [Temporal (TIMESTAMP),Past}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>132</x>
+      <y>426</y>
+      <w>216</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Announcement
+--
++title: String (NotBlank)
++moment: Date (Temporal(TIMESTAMP)), Past)
++moreInfo: String (URL)
+text: String (NotBlank)</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
