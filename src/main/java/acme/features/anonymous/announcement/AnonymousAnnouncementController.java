@@ -1,5 +1,5 @@
 
-package acme.features.administrator.announcement;
+package acme.features.anonymous.announcement;
 
 import javax.annotation.PostConstruct;
 
@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
-import acme.framework.entities.Administrator;
+import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/administrator/announcement/")
-public class AdministratorAnnouncementController extends AbstractController<Administrator, Announcement> {
+@RequestMapping("/anonymous/announcement/")
+public class AnonymousAnnouncementController extends AbstractController<Anonymous, Announcement> {
 
 	@Autowired
-	private AdministratorAnnouncementListService	listService;
+	private AnonymousAnnouncementListService	listService;
 	@Autowired
-	private AdministratorAnnouncementShowService	showService;
+	private AnonymousAnnouncementShowService	showService;
 
 
 	@PostConstruct

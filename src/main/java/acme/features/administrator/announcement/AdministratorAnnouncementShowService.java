@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Authenticated;
+import acme.framework.entities.Administrator;
 import acme.framework.services.AbstractShowService;
 
 @Service
-public class AdministratorAnnouncementShowService implements AbstractShowService<Authenticated, Announcement> {
+public class AdministratorAnnouncementShowService implements AbstractShowService<Administrator, Announcement> {
 
 	@Autowired
 	private AdministratorAnnouncementRepository repository;
