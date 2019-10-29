@@ -375,7 +375,8 @@ perejonBulletin
       <w>234</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>Offer
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Offer
 --
 + title:String{NotBlank}
 + moment: Date{Temporal(TIMESTAMP),Past}
