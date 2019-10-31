@@ -54,6 +54,12 @@ master.menu.anonymous.ganfornina-bulletin = Create GanforninaBulletin!
 
 master.menu.anonymous.listCompanyRecords = List Company Records
 
+
+# master.menu.authenticated #################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.listCompanyRecords = List Company Records
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
