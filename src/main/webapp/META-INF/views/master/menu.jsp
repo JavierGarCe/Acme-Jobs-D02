@@ -49,6 +49,9 @@
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listGarciaBulletins" action="/anonymous/garcia-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createGarciaBulletin" action="/anonymous/garcia-bulletin/create"/>
+      
+     	<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.anonymous.listAnnouncements" action="/anonymous/announcement/list"/>
 			
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listCompanyRecords" action="/anonymous/company-record/list"/>
@@ -58,6 +61,7 @@
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.offers" action="/authenticated/offer/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.listCompanyRecords" action="/authenticated/company-record/list"/>
+      <acme:menu-suboption code="master.menu.authenticated.listAnnouncements" action="/authenticated/announcement/list"/>
 		</acme:menu-option>
 			
       
@@ -65,6 +69,8 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
+      <acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.listAnnouncements" action="/administrator/announcement/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
