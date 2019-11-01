@@ -372,8 +372,8 @@ perejonBulletin
     <coordinates>
       <x>20</x>
       <y>650</y>
-      <w>430</w>
-      <h>160</h>
+      <w>490</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Offer
@@ -381,8 +381,10 @@ Offer
 + title:String{NotBlank}
 + moment: Date{Temporal(TIMESTAMP),Past}
 + deadline: Date{Temporal(TIMESTAMP)}
-+ reward: Money
-+ ticker: String{Not Blank, Unique,Pattern(^O[a-zA-Z]{4}-[0-9]{5}$)}</panel_attributes>
++ description: String{NotBlank}
++ maxReward: Money
++ minReward: Money
++ ticker: String{Not Blank, Unique,Pattern(regexp="^O[a-zA-Z]{4}-[0-9]{5}$")}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
