@@ -52,6 +52,8 @@ master.menu.anonymous.createGarciaBulletin = Create GarciaBulletin!
 master.menu.anonymous.ganfornina-bulletins = List GanforninaBulletins
 master.menu.anonymous.ganfornina-bulletin = Create GanforninaBulletin!
 
+master.menu.anonymous.listInvestorRecord = List Investor
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
@@ -76,6 +78,7 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.listInvestorRecord = List Investor
 
 # master.footer ###############################################################
 

@@ -367,4 +367,22 @@ perejonBulletin
 + moment: Date [Temporal (TIMESTAMP),Past}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>426</y>
+      <w>186</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+InvestorRecord
+--
++name: String{NotBlank}
++sector: String{NotBlank}
++investingStatement: Money
++stars: Integer{Min=0,Max=5}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
