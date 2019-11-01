@@ -60,6 +60,9 @@ master.menu.anonymous.listCompanyRecords = List Company Records
 master.menu.authenticated = Authenticated
 master.menu.authenticated.listCompanyRecords = List Company Records
 
+master.menu.authenticated = Authenticated
+master.menu.authenticated.offers = List offers
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

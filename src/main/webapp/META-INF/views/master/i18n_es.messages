@@ -59,6 +59,9 @@ master.menu.anonymous.listCompanyRecords = Listar registros de compañías
 master.menu.authenticated = Autenticado
 master.menu.authenticated.listCompanyRecords = Listar registros de compañías
 
+master.menu.authenticated = Autenticado
+master.menu.authenticated.offers = Lista de ofertas
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
