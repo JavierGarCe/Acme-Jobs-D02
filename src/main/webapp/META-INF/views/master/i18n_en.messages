@@ -52,11 +52,29 @@ master.menu.anonymous.createGarciaBulletin = Create GarciaBulletin!
 master.menu.anonymous.ganfornina-bulletins = List GanforninaBulletins
 master.menu.anonymous.ganfornina-bulletin = Create GanforninaBulletin!
 
+master.menu.anonymous.listCompanyRecords = List Company Records
+master.menu.anonymous.listInvestorRecord = List Investor Records
+master.menu.anonymous.listAnnouncements = List Announcements
+
+
+# master.menu.authenticated #################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.listCompanyRecords = List Company Records
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.offers = List Offers
+master.menu.authenticated.listAnnouncements = List Announcements
+master.menu.authenticated.listInvestorRecord = List Investor Records
+master.menu.authenticated.requests.list = List Requests
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+
+master.menu.administrator.listAnnouncements = List announcements
 
 # master.menu.provider ########################################################
 
@@ -76,8 +94,8 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
-master.menu.user-account.requests.list = List Requests
-master.menu.user-account.requests.show = Show a request
+master.menu.user-account.listCompanyRecords = List company records
+
 # master.footer ###############################################################
 
 master.footer.title.about = About us
@@ -94,10 +112,10 @@ master.footer.label.spanish = Spanish
 
 master.company.title = La compañía
 master.company.text = \
-	Acme-Jobs, Inc. is a fictitious fictitious company that provides a \
+	Starter Project, Inc. is a fictitious fictitious company that provides a \
 	starter project for the students of the Design and Testing subject of the \
 	Software Engineering Curriculum of the University of Sevilla.
-master.company.name = Acme-Jobs, Inc.
+master.company.name = Starter Project, Inc.
 master.company.address = Number Street, City, State, Country
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com

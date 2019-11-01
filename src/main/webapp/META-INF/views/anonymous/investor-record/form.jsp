@@ -15,12 +15,11 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:form>
-	<acme:form-textbox code="anonymous.romero-bulletin.form.label.name" path="name"/>
-	<acme:form-textbox code="anonymous.romero-bulletin.form.label.surname" path="surname" />
-	<acme:form-integer code="anonymous.romero-bulletin.form.label.telephone" path="telephone"/>
-	<acme:form-textarea code="anonymous.romero-bulletin.form.label.email" path="email"/>
+<acme:form readonly="true">
+	<acme:form-textbox code="anonymous.investor-record.form.label.name" path="name"/>
+	<acme:form-textbox code="anonymous.investor-record.form.label.sector" path="sector" />
+	<acme:form-money code="anonymous.investor-record.form.label.investingStatement" path="investingStatement"/>
+	<acme:form-integer code="anonymous.investor-record.form.label.stars" path="stars"/>
 		
-	<acme:form-submit code="anonymous.romero-bulletin.form.button.create" action="/anonymous/romero-bulletin/create"/>
-  	<acme:form-return code="anonymous.romero-bulletin.form.button.return"/>
+  	<acme:form-return code="anonymous.investor-record.form.button.return"/>
 </acme:form>

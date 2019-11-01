@@ -52,11 +52,28 @@ master.menu.anonymous.createGarciaBulletin = ¡Crear Boletin Garcia!
 master.menu.anonymous.ganfornina-bulletins = Lista de Boletin Ganfornina
 master.menu.anonymous.ganfornina-bulletin = ¡Crear Boletin Ganfornina!
 
+master.menu.anonymous.listCompanyRecords = Listar registros de compañías
+master.menu.anonymous.listInvestorRecord = Lista de registros inversores
+master.menu.anonymous.listAnnouncements = Listar anuncios
+
+# master.menu.authenticated #################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.listCompanyRecords = Listar registros de compañías
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.offers = Lista de ofertas
+master.menu.authenticated.listAnnouncements = Lista de anuncios
+master.menu.authenticated.listInvestorRecord = Lista de registros de inversores
+master.menu.authenticated.requests.list = Lista de peticiones
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+
+master.menu.administrator.listAnnouncements = Listar anuncios
 
 # master.menu.provider ########################################################
 
@@ -76,8 +93,7 @@ master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
-master.menu.user-account.requests.list = Listar solicitudes
-master.menu.user-account.requests.show = Mostrar una solicitud
+master.menu.user-account.listCompanyRecords = Lista de registros de compañías
 
 ﻿# master.footer ###############################################################
 
@@ -95,10 +111,10 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Acme-Jobs, Inc. es una compañía fictícia que proporciona un proyecto \
+	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Acme-Jobs, Inc.
+master.company.name = Starter Project, Inc.
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
@@ -114,4 +130,4 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-	
+
