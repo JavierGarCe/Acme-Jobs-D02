@@ -1,9 +1,7 @@
 authenticated.offer.list.label.title = Título
-authenticated.offer.list.label.moment = Momento
 authenticated.offer.list.label.deadline = Fecha límite
 authenticated.offer.list.label.description = Descripción
 authenticated.offer.list.label.reward = Recompensa
-authenticated.offer.list.label.ticker = Símbolo bursatil
 
 authenticated.offer.form.labbel.title = Título:
 authenticated.offer.form.labbel.moment = Momento:

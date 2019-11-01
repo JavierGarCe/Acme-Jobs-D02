@@ -2,8 +2,10 @@
 package acme.entities.companyRecords;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
@@ -40,6 +42,7 @@ public class CompanyRecord extends DomainEntity {
 	@NotBlank
 	private String				phone;
 
+	@NotNull
 	private Boolean				inc;
 
 	@Range(min = 0, max = 5)
@@ -48,4 +51,20 @@ public class CompanyRecord extends DomainEntity {
 	@NotBlank
 	@Email
 	private String				email;
+
+
+	@Transient
+	public String getIncName() {
+		StringBuilder result;
+
+		result = new StringBuilder();
+		result.append(this.name);
+		result.append(" ");
+		if (this.inc) {
+			result.append("Inc.");
+		} else {
+			result.append("LLC");
+		}
+		return result.toString();
+	}
 }

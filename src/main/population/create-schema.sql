@@ -1,4 +1,5 @@
-create table `administrator` (
+
+    create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -14,18 +15,6 @@ create table `administrator` (
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-
-  create table `investor_record` (
-       `id` integer not null,
-        `version` integer not null,
-        `investing_statement_amount` double precision,
-        `investing_statement_currency` varchar(255),
-        `name` varchar(255),
-        `sector` varchar(255),
-        `stars` integer,
-        primary key (`id`)
-    ) engine=InnoDB;
-  
 
     create table `anonymous` (
        `id` integer not null,
@@ -94,6 +83,17 @@ create table `administrator` (
         `subject` varchar(255),
         `surname` varchar(255),
         `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `investor_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `investing_statement_amount` double precision,
+        `investing_statement_currency` varchar(255),
+        `name` varchar(255),
+        `sector` varchar(255),
+        `stars` integer,
         primary key (`id`)
     ) engine=InnoDB;
 

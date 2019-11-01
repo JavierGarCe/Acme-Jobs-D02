@@ -1,12 +1,9 @@
 anonymous.companyRecord.list.label.name =  Nombre de la compañía
 anonymous.companyRecord.list.label.sector = Sector
-anonymous.companyRecord.list.label.ceo = Nombre del CEO
 anonymous.companyRecord.list.label.activities = Actividades
 anonymous.companyRecord.list.label.website = Sitio Web
 anonymous.companyRecord.list.label.phoneNumber = Nº de teléfono
-anonymous.companyRecord.list.label.inc = Incorporada
 anonymous.companyRecord.list.label.stars = Estrellas
-anonymous.companyRecord.list.label.email = Correo electrónico
 
 anonymous.companyRecord.form.label.name = Nombre de la compañía:
 anonymous.companyRecord.form.label.sector = Sector:

@@ -1,4 +1,5 @@
-alter table `administrator` 
+
+    alter table `administrator` 
        drop 
        foreign key FK_2a5vcjo3stlfcwadosjfq49l1;
 
@@ -36,9 +37,9 @@ alter table `administrator`
 
     drop table if exists `garcia_bulletin`;
 
-    drop table if exists `offer`;
-    
     drop table if exists `investor_record`;
+
+    drop table if exists `offer`;
 
     drop table if exists `provider`;
 
