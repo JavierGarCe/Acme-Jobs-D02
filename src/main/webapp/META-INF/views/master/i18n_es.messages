@@ -52,6 +52,11 @@ master.menu.anonymous.createGarciaBulletin = ¡Crear Boletin Garcia!
 master.menu.anonymous.ganfornina-bulletins = Lista de Boletin Ganfornina
 master.menu.anonymous.ganfornina-bulletin = ¡Crear Boletin Ganfornina!
 
+# master.menu.authenticated ##################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.offers = Lista de ofertas
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
