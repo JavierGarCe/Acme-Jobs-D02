@@ -49,6 +49,9 @@
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listGarciaBulletins" action="/anonymous/garcia-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createGarciaBulletin" action="/anonymous/garcia-bulletin/create"/>
+			
+		<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.listCompanyRecords" action="/anonymous/company-record/list"/>
 		
 		</acme:menu-option>
 		
@@ -69,6 +72,10 @@
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticated.listCompanyRecords" action="/authenticated/company-record/list"/>
 		</acme:menu-option>
 	</acme:menu-left>
 

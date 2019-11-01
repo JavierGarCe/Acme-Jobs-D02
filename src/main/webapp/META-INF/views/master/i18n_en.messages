@@ -52,7 +52,13 @@ master.menu.anonymous.createGarciaBulletin = Create GarciaBulletin!
 master.menu.anonymous.ganfornina-bulletins = List GanforninaBulletins
 master.menu.anonymous.ganfornina-bulletin = Create GanforninaBulletin!
 
-# master.menu.authenticated ##################################################
+master.menu.anonymous.listCompanyRecords = List Company Records
+
+
+# master.menu.authenticated #################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.listCompanyRecords = List Company Records
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.offers = List offers
@@ -81,6 +87,7 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.listCompanyRecords = List company records
 
 # master.footer ###############################################################
 
