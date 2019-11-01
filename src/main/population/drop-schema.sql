@@ -27,6 +27,8 @@
 
     drop table if exists `authenticated`;
 
+    drop table if exists `company_record`;
+
     drop table if exists `consumer`;
 
     drop table if exists `fernandez_bulletin`;
@@ -34,6 +36,8 @@
     drop table if exists `ganfornina_bulletin`;
 
     drop table if exists `garcia_bulletin`;
+
+    drop table if exists `offer`;
 
     drop table if exists `provider`;
 
