@@ -10,8 +10,8 @@
 	<acme:form-textarea code="authenticated.offer.form.label.description" path="description"/>
 	<acme:form-textbox code="authenticated.offer.form.labbel.ticker" path="ticker"/>
 	<acme:form-panel code="authenticated.offer.form.panel.reward">
-	<acme:form-textarea code="authenticated.offer.form.labbel.minReward" path="minReward"/>
-	<acme:form-textarea code="authenticated.offer.form.labbel.maxReward" path="maxReward"/>
+	<acme:form-textbox code="authenticated.offer.form.labbel.minReward" path="minReward"/>
+	<acme:form-textbox code="authenticated.offer.form.labbel.maxReward" path="maxReward"/>
 	</acme:form-panel>
 	
 	<acme:form-return code="authenticated.offer.form.button.return"/>

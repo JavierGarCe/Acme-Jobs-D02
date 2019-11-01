@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
@@ -47,5 +48,20 @@ public class Offer extends DomainEntity {
 	@Column(unique = true)
 	@Pattern(regexp = "^O[a-zA-Z]{4}-[0-9]{5}$")
 	private String				ticker;
+
+
+	@Transient
+	public String getRewardRange() {
+		StringBuilder result;
+
+		result = new StringBuilder();
+		result.append(this.minReward.getAmount());
+		result.append(this.minReward.getCurrency());
+		result.append(" - ");
+		result.append(this.maxReward.getAmount());
+		result.append(this.maxReward.getCurrency());
+
+		return result.toString();
+	}
 
 }

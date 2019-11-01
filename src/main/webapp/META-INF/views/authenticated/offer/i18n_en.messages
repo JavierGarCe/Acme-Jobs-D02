@@ -2,8 +2,7 @@ authenticated.offer.list.label.title = Title
 authenticated.offer.list.label.moment = Moment
 authenticated.offer.list.label.deadline = Deadline
 authenticated.offer.list.label.description = Description
-authenticated.offer.list.label.minReward = Minimun reward
-authenticated.offer.list.label.maxReward = Maximum reward
+authenticated.offer.list.label.reward = Reward
 authenticated.offer.list.label.ticker = Ticker
 
 

@@ -10,6 +10,6 @@
 	<acme:list-column code="authenticated.offer.list.label.deadline" path="deadline" width="15%"/>
 	<acme:list-column code="authenticated.offer.list.label.description" path="description" width="20%"/>
 	<acme:list-column code="authenticated.offer.list.label.ticker" path="ticker" width="20%"/>
-	<acme:list-column code="authenticated.offer.list.label.minReward" path="minReward" width="10%"/>
-	<acme:list-column code="authenticated.offer.list.label.maxReward" path="maxReward" width="10%"/>
+	<acme:list-column code="authenticated.offer.list.label.reward" path="rewardRange" width="10%"/>
+	
 </acme:list>
