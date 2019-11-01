@@ -52,13 +52,27 @@ master.menu.anonymous.createGarciaBulletin = ¡Crear Boletin Garcia!
 master.menu.anonymous.ganfornina-bulletins = Lista de Boletin Ganfornina
 master.menu.anonymous.ganfornina-bulletin = ¡Crear Boletin Ganfornina!
 
-master.menu.anonymous.listInvestorRecord = Lista de inversores
+master.menu.anonymous.listCompanyRecords = Listar registros de compañías
+master.menu.anonymous.listInvestorRecord = Lista de registros inversores
+master.menu.anonymous.listAnnouncements = Listar anuncios
+
+# master.menu.authenticated #################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.listCompanyRecords = Listar registros de compañías
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.offers = Lista de ofertas
+master.menu.authenticated.listAnnouncements = Lista de anuncios
+master.menu.authenticated.listInvestorRecord = Lista de registros de inversores
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+
+master.menu.administrator.listAnnouncements = Listar anuncios
 
 # master.menu.provider ########################################################
 
@@ -78,7 +92,7 @@ master.menu.user-account.provider = Datos de proveedor
 master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
-master.menu.user-account.listInvestorRecord = Lista de inversores
+master.menu.user-account.listCompanyRecords = Lista de registros de compañías
 
 ﻿# master.footer ###############################################################
 
