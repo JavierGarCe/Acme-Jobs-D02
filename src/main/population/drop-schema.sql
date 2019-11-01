@@ -43,6 +43,8 @@
 
     drop table if exists `provider`;
 
+    drop table if exists `requests`;
+
     drop table if exists `romero_bulletin`;
 
     drop table if exists `shout`;

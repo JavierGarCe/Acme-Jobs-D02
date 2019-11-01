@@ -444,4 +444,23 @@ InvestorRecord
 </panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>469</y>
+      <w>245</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Request
+--
++ title: String {NotBlank}
++ moreInfo: String {NotBlank}
++ reward: Money
++ ticker: String {NotBlank,Unique}
++ deadline: Date {Temporal (TIMESTAMP)}
++ moment: Date {Temporal (TIMESTAMP),Past}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

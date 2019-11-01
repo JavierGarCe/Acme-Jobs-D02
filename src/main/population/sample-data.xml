@@ -293,5 +293,43 @@
 		<property name="investingStatement" value="800 EUR"/>
 		<property name="stars" value="1"/>
 	</bean>
+  
+  	<!-- Request -->
+  
+	<bean id="request01" class="acme.entities.requests.Requests">
+		<property name="title" value="Becario de marketing"/>
+		<property name="moreInfo" value="  Afc Innovation busca un becario de marketing digital."/>
+		<property name="reward" value="100 EUR"/>
+		<property name="ticker" value="RAAAA-00001"/>
+		<property name="deadline" value="2020/09/24 00:00"/>
+		<property name="moment" value="2018/09/24 00:00"/>
+	</bean>
+	
+	<bean id="request02" class="acme.entities.requests.Requests">
+		<property name="title" value="Ayudante de almacén"/>
+		<property name="moreInfo" value="La empresa AyuAL está en busca de ayudantes de almacén. "/>
+		<property name="reward" value="200.0  EUR"/>
+		<property name="ticker" value="RAAAA-00002"/>
+		<property name="deadline" value="2019/11/02 20:00"/>
+		<property name="moment" value="2018/01/12 07:00"/>
+	</bean>
+	
+	<bean id="request03" class="acme.entities.requests.Requests">
+		<property name="title" value="General Manager"/>
+		<property name="moreInfo" value="In GeMa S.A., We are looking a general manager."/>
+		<property name="reward" value="300 EUR"/>
+		<property name="ticker" value="RAAAA-00003"/>
+		<property name="deadline" value="2020/04/06 15:00"/>
+		<property name="moment" value="2018/04/24 10:30"/>
+	</bean>
+	
+	<bean id="request04" class="acme.entities.requests.Requests">
+		<property name="title" value="Software IN"/>
+		<property name="moreInfo" value="Estamos buscando a un ingeniero de Software ."/>
+		<property name="reward" value="500 EUR"/>
+		<property name="ticker" value="RAAAA-00004"/>
+		<property name="deadline" value="2018/04/06 15:00"/>
+		<property name="moment" value="2016/04/24 10:30"/>
+	</bean>
 </beans>
   
