@@ -53,9 +53,8 @@ master.menu.anonymous.ganfornina-bulletins = List GanforninaBulletins
 master.menu.anonymous.ganfornina-bulletin = Create GanforninaBulletin!
 
 master.menu.anonymous.listCompanyRecords = List Company Records
-
-master.menu.anonymous.listAnnouncements = List announcements
-
+master.menu.anonymous.listInvestorRecord = List Investor Records
+master.menu.anonymous.listAnnouncements = List Announcements
 
 
 # master.menu.authenticated #################################################
@@ -64,8 +63,10 @@ master.menu.authenticated = Authenticated
 master.menu.authenticated.listCompanyRecords = List Company Records
 
 master.menu.authenticated = Authenticated
-master.menu.authenticated.offers = List offers
-master.menu.authenticated.listAnnouncements = List announcements
+master.menu.authenticated.offers = List Offers
+master.menu.authenticated.listAnnouncements = List Announcements
+master.menu.authenticated.listInvestorRecord = List Investor Records
+
 
 # master.menu.administrator ###################################################
 

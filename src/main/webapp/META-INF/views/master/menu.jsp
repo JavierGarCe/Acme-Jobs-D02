@@ -46,15 +46,18 @@
 			<acme:menu-suboption code="master.menu.anonymous.ganfornina-bulletins" action="/anonymous/ganfornina-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.ganfornina-bulletin" action="/anonymous/ganfornina-bulletin/create"/>
       
-		<acme:menu-separator/>
+  		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listGarciaBulletins" action="/anonymous/garcia-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createGarciaBulletin" action="/anonymous/garcia-bulletin/create"/>
       
      	<acme:menu-separator/>
-		<acme:menu-suboption code="master.menu.anonymous.listAnnouncements" action="/anonymous/announcement/list"/>
+	  	<acme:menu-suboption code="master.menu.anonymous.listAnnouncements" action="/anonymous/announcement/list"/>
 			
-		<acme:menu-separator/>
+	  	<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listCompanyRecords" action="/anonymous/company-record/list"/>
+      
+      <acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.listInvestorRecord" action="/anonymous/investor-record/list"/>
 		
 		</acme:menu-option>
 		
@@ -62,6 +65,7 @@
 			<acme:menu-suboption code="master.menu.authenticated.offers" action="/authenticated/offer/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.listCompanyRecords" action="/authenticated/company-record/list"/>
       <acme:menu-suboption code="master.menu.authenticated.listAnnouncements" action="/authenticated/announcement/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listInvestorRecord" action="/authenticated/investor-record/list"/>
 		</acme:menu-option>
 			
       
