@@ -19,13 +19,13 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			
+
 			<acme:menu-suboption code="master.menu.anonymous.javier-favourite-link" action="https://www.informatica.us.es/"/>
 			<acme:menu-suboption code="master.menu.anonymous.franFavourite-link" action="http://www.google.com/"/>
  			<acme:menu-suboption code="master.menu.anonymous.Juanfavourite-link" action="https://es.wikipedia.org/wiki/Julen_Lopetegui"/>
       		<acme:menu-suboption code="master.menu.anonymous.fernandoFavourite-link" action="http://www.lsi.us.es/docencia/pagina_asignatura.php?id=153"/>
      		<acme:menu-suboption code="master.menu.anonymous.estefania-link" action="http://www.linkedin.com/"/>
-       
+
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.listShouts" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
@@ -75,9 +75,12 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
       <acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.listAnnouncements" action="/administrator/announcement/list"/>
+			<acme:menu-suboption code="master.menu.administrator.listAnnouncements" action="/administrator/announcement/list"/>	
+		  <acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/display"/>	
 		</acme:menu-option>
-
+	
+	 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
 			<acme:menu-suboption code="master.menu.provider.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>

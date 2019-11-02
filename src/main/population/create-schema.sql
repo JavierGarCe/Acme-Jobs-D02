@@ -1,4 +1,5 @@
-create table `administrator` (
+
+    create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -95,19 +96,6 @@ create table `administrator` (
         `stars` integer,
         primary key (`id`)
     ) engine=InnoDB;
-    
-    create table `requests` (
-       `id` integer not null,
-        `version` integer not null,
-        `deadline` datetime(6),
-        `moment` datetime(6),
-        `more_info` varchar(255),
-        `reward_amount` double precision,
-        `reward_currency` varchar(255),
-        `ticker` varchar(255),
-        `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
 
     create table `offer` (
        `id` integer not null,
@@ -130,6 +118,19 @@ create table `administrator` (
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `requests` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `more_info` varchar(255),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -178,12 +179,12 @@ create table `administrator` (
         `nombre` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
-    alter table `requests` 
-       add constraint UK_5v1h0kdr8vcps4i9e55k5gnc8 unique (`ticker`);
 
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
+
+    alter table `requests` 
+       add constraint UK_5v1h0kdr8vcps4i9e55k5gnc8 unique (`ticker`);
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

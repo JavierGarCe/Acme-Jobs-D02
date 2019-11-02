@@ -1,0 +1,12 @@
+numberOfAnnouncement = Total number of announcements:
+numberOfCompanyRecords = Total number of company records:
+numberOfInvestorRecords = Total number of investor records:
+minActiveRequests = Minimum of the reward of the active request:
+maxActiveRequests = Maximum of the reward of the active requests:
+avgActiveRequests = Average of the rewards of the active requests:
+stDevRActiveRequests = Standard deviation of the rewards of the active requests:
+minActiveOffers = Minimum of the reward of the active offers:
+maxActiveOffers = Maximum of the reward of the active offers:
+avgActiveOffers = Average of the rewards of the active offers:
+stDevMinActiveOffers = Standard deviation of the rewards minimum of the active offers:
+stDevMaxActiveOffers = Standard deviation of the rewards maximun of the active offers:

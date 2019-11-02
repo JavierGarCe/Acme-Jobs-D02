@@ -1,0 +1,12 @@
+numberOfAnnouncement = Número total de anuncios:
+numberOfCompanyRecords = Número total de compañías:
+numberOfInvestorRecords = Número total de registros de inversores: 
+minActiveRequests = Recompensa mínima de peticiones activas:
+maxActiveRequests = Recompensa máxima de peticiones activas:
+avgActiveRequests = Recompensa media de peticiones activas:
+stDevRActiveRequests = Desviación estándar de la recompensa de las peticiones activas:
+minActiveOffers = Recompensa mínima de ofertas activas:
+maxActiveOffers = Recompensa máxima de ofertas activas:
+avgActiveOffers =  Recompensa media de ofertas activas:
+stDevMinActiveOffers =  Desviación estándar de la recompensa mínima de las ofertas activas:
+stDevMaxActiveOffers =  Desviación estándar de la recompensa máxima de las ofertas activas:
