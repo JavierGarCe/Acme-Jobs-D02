@@ -76,6 +76,10 @@ master.menu.administrator.shutdown = Shut down
 
 master.menu.administrator.listAnnouncements = List announcements
 
+master.menu.administrator.listCommercialBanners = List commercial banners
+
+master.menu.administrator.listNonCommercialBanners = List non commercial banners
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Provider

@@ -75,6 +75,10 @@ master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.administrator.listAnnouncements = Listar anuncios
 
+master.menu.administrator.listCommercialBanners = Listar banners comerciales
+
+master.menu.administrator.listNonCommercialBanners = Listar banners no comerciales
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor

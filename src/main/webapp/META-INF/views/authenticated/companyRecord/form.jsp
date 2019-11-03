@@ -8,12 +8,11 @@
 	<acme:form-textbox code="anonymous.companyRecord.form.label.sector" path="sector"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.ceo" path="ceo"/>
 	<acme:form-textarea code="anonymous.companyRecord.form.label.activities" path="activities"/>
-	<acme:form-textbox code="anonymous.companyRecord.form.label.website" path="website"/>
+	<acme:form-url code="anonymous.companyRecord.form.label.website" path="website"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.phoneNumber" path="phone"/>
 	<acme:form-checkbox code="anonymous.companyRecord.form.label.inc" path="inc"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.stars" path="stars"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.email" path="email"/>
-
 	
 	<acme:form-return code="anonymous.companyRecord.form.button.return"/>
 </acme:form>
