@@ -17,9 +17,9 @@
 
 <acme:form>
 	<acme:form-textbox code="anonymous.romero-bulletin.form.label.name" path="name"/>
-	<acme:form-textarea code="anonymous.romero-bulletin.form.label.surname" path="surname" />
-	<acme:form-double code="anonymous.romero-bulletin.form.label.telephone" path="telephone"/>
-	<acme:form-integer code="anonymous.romero-bulletin.form.label.email" path="email"/>
+	<acme:form-textbox code="anonymous.romero-bulletin.form.label.surname" path="surname" />
+	<acme:form-integer code="anonymous.romero-bulletin.form.label.telephone" path="telephone"/>
+	<acme:form-textarea code="anonymous.romero-bulletin.form.label.email" path="email"/>
 		
 	<acme:form-submit code="anonymous.romero-bulletin.form.button.create" action="/anonymous/romero-bulletin/create"/>
   	<acme:form-return code="anonymous.romero-bulletin.form.button.return"/>
