@@ -1,0 +1,31 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.Challenge.form.label.title = title
+authenticated.Challenge.form.label.deadline = deadline
+authenticated.Challenge.form.label.description = description
+authenticated.Challenge.form.label.goldGoal =  gold goal
+authenticated.Challenge.form.label.goldReward = gold reward
+authenticated.Challenge.form.label.silverGoal = silver goal
+authenticated.Challenge.form.label.silverReward = silver reward
+authenticated.Challenge.form.label.bronzeGoal = bronze goal
+authenticated.Challenge.form.label.bronzeReward = bronze reward
+
+authenticated.Challenge.form.button.return = return
+
+authenticated.challenge.list.label.title = title
+authenticated.challenge.list.label.deadline = deadline
+authenticated.challenge.list.label.description = description
+authenticated.challenge.list.label.goldReward = Gold reward
+authenticated.challenge.list.label.goldGoal = Gold goal
+authenticated.challenge.list.label.silverReward = Silver reward
+authenticated.challenge.list.label.silverGoal = Silver goal
+authenticated.challenge.list.label.bronzeReward = Bronze reward
+authenticated.challenge.list.label.bronzeGoal = Bronze goal

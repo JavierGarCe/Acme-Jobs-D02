@@ -153,5 +153,39 @@
 		<property name="aspiraciones" value="Conseguir experiencia"/>
 		<property name="moment" value="2019/09/23 10:00"/>
 	</bean>
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="aplicacion de ofertas"/>
+		<property name="deadline" value="2019/11/23 10:00"/>
+		<property name="description" value="consigue puntos aplicando a ofertas"/>
+		<property name="goldGoal" value="aplicar a 15 ofertas"/>
+		<property name="silverGoal" value="aplicar a 10 ofertas"/>
+		<property name="bronzeGoal" value="aplicar a 5 ofertas"/>
+		<property name="goldReward" value="15 puntos"/>
+		<property name="silverReward" value="10 puntos"/>
+		<property name="bronzeReward" value="5 puntos"/>
+	</bean>
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="ofertar empleos"/>
+		<property name="deadline" value="2019/11/23 10:00"/>
+		<property name="description" value="consigue puntos ofertando empleos"/>
+		<property name="goldGoal" value="ofertar 3 empleos"/>
+		<property name="silverGoal" value="ofertar 2 empleos"/>
+		<property name="bronzeGoal" value="ofertar 1 empleo"/>
+		<property name="goldReward" value="15 puntos"/>
+		<property name="silverReward" value="10 puntos"/>
+		<property name="bronzeReward" value="5 puntos"/>
+	</bean>
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="entrar a la web"/>
+		<property name="deadline" value="2019/10/30 16:30"/>
+		<property name="description" value="consigue puntos entrando a la web"/>
+		<property name="goldGoal" value="entrar 5 dias a la web"/>
+		<property name="silverGoal" value="entrar 3 dias a la web"/>
+		<property name="bronzeGoal" value="entrar 1 dia a la web"/>
+		<property name="goldReward" value="15 puntos"/>
+		<property name="silverReward" value="10 puntos"/>
+		<property name="bronzeReward" value="5 puntos"/>
+	</bean>
+	
 	
 </beans>
