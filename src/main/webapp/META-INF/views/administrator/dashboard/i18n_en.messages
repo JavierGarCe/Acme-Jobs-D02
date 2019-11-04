@@ -10,3 +10,9 @@ maxActiveOffers = Maximum of the reward of the active offers:
 avgActiveOffers = Average of the rewards of the active offers:
 stDevMinActiveOffers = Standard deviation of the rewards minimum of the active offers:
 stDevMaxActiveOffers = Standard deviation of the rewards maximun of the active offers:
+
+Announcement = Announcement
+CompanyRecords = Company records
+InvestorRecords = Investor records
+ActiveRequests = Active requests
+ActiveOffers = Active offers

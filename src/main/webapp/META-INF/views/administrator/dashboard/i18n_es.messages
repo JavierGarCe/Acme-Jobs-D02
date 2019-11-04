@@ -10,3 +10,10 @@ maxActiveOffers = Recompensa máxima de ofertas activas:
 avgActiveOffers =  Recompensa media de ofertas activas:
 stDevMinActiveOffers =  Desviación estándar de la recompensa mínima de las ofertas activas:
 stDevMaxActiveOffers =  Desviación estándar de la recompensa máxima de las ofertas activas:
+
+
+Announcement = Anuncios
+CompanyRecords = Registros de compañías
+InvestorRecords = Registros de inversores
+ActiveRequests = Peticiones activas
+ActiveOffers = Ofertas activas

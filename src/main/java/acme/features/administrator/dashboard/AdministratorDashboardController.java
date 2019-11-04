@@ -12,12 +12,13 @@ import acme.features.authenticated.companyRecord.AuthenticatedCompanyRecordListS
 import acme.features.authenticated.investorRecord.AuthenticatedInvestorRecordListService;
 import acme.features.authenticated.offer.AuthenticatedOfferListService;
 import acme.features.authenticated.requests.AuthenticatedRequestsListService;
+import acme.forms.dashboards.Dashboard;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Administrator;
 
 @Controller
 @RequestMapping("/administrator/dashboard/")
-public class AdministratorDashboardController extends AbstractController<Administrator, acme.forms.dashboards.Dashboard> {
+public class AdministratorDashboardController extends AbstractController<Administrator, Dashboard> {
 
 	@Autowired
 	private AdministratorAnnouncementListService	listServiceAnnouncement;
@@ -31,39 +32,22 @@ public class AdministratorDashboardController extends AbstractController<Adminis
 	private AuthenticatedOfferListService			listServiceOffer;
 
 
-	public AdministratorDashboardController() {
-		super();
-	}
-
 	@RequestMapping(value = "/display", method = RequestMethod.GET)
-
 	public ModelAndView list() {
 		ModelAndView result;
 		result = new ModelAndView();
-		Integer numberOfAnnoucements;
-		Integer numberOfCompanyRecords;
-		Integer numberOfInvestorRecords;
-		Double minActiveRequests;
-		Double maxActiveRequests;
-		Double avgActiveRequests;
-		Double stDevRActiveRequests;
-		Double minActiveOffers;
-		Double maxActiveOffers;
-		Double avgActiveOffers;
-		Double stDevMaxActiveOffers;
-		Double stDevMinActiveOffers;
-		numberOfAnnoucements = this.listServiceAnnouncement.numberOfAnnouncements();
-		numberOfCompanyRecords = this.listServiceCompany.numberOfCompanyRecords();
-		numberOfInvestorRecords = this.listServiceInvestor.numberOfInvestorRecords();
-		minActiveRequests = this.listServiceRequest.minActiveRequests();
-		maxActiveRequests = this.listServiceRequest.maxActiveRequests();
-		avgActiveRequests = this.listServiceRequest.avgActiveRequests();
-		stDevRActiveRequests = this.listServiceRequest.stDevRequests();
-		minActiveOffers = this.listServiceOffer.minActiveOffer();
-		maxActiveOffers = this.listServiceOffer.maxActiveOffer();
-		avgActiveOffers = this.listServiceOffer.avgActiveOffer();
-		stDevMaxActiveOffers = this.listServiceOffer.stDevMaxActiveOffers();
-		stDevMinActiveOffers = this.listServiceOffer.stDevMinActiveOffers();
+		Integer numberOfAnnoucements = this.listServiceAnnouncement.numberOfAnnouncements();
+		Integer numberOfCompanyRecords = this.listServiceCompany.numberOfCompanyRecords();
+		Integer numberOfInvestorRecords = this.listServiceInvestor.numberOfInvestorRecords();
+		Double minActiveRequests = this.listServiceRequest.minActiveRequests();
+		Double maxActiveRequests = this.listServiceRequest.maxActiveRequests();
+		Double avgActiveRequests = this.listServiceRequest.avgActiveRequests();
+		Double stDevRActiveRequests = this.listServiceRequest.stDevRequests();
+		Double minActiveOffers = this.listServiceOffer.minActiveOffer();
+		Double maxActiveOffers = this.listServiceOffer.maxActiveOffer();
+		Double avgActiveOffers = this.listServiceOffer.avgActiveOffer();
+		Double stDevMaxActiveOffers = this.listServiceOffer.stDevMaxActiveOffers();
+		Double stDevMinActiveOffers = this.listServiceOffer.stDevMinActiveOffers();
 		result.addObject("numberOfAnnoucements", numberOfAnnoucements);
 		result.addObject("numberOfCompanyRecords", numberOfCompanyRecords);
 		result.addObject("numberOfInvestorRecords", numberOfInvestorRecords);
