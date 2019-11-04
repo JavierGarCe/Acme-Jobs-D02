@@ -463,4 +463,26 @@ Request
 + moment: Date {Temporal (TIMESTAMP),Past}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>63</x>
+      <y>0</y>
+      <w>297</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenge
+--
++ title: String {NotBlank}
++ deadline: Date {Temporal(TIMESTAMP),Future}
++ description: String {NotBlank}
++ goldGoal: String {NotBlank}
++ silverGoal: String {NotBlank}
++ bronzeGoal: String {NotBlank}
++ goldReward: String {NotBlank}
++ silverReward: String {NotBlank}
++ bronzeReward: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
