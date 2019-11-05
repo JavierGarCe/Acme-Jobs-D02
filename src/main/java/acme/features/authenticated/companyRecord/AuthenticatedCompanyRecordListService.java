@@ -33,7 +33,7 @@ public class AuthenticatedCompanyRecordListService implements AbstractListServic
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "incName", "sector", "activities", "stars");
+		request.unbind(entity, model, "incName", "sector", "activities");
 
 	}
 

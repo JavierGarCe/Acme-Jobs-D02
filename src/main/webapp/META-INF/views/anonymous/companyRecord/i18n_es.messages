@@ -1,7 +1,6 @@
 anonymous.companyRecord.list.label.name =  Nombre de la compañía
 anonymous.companyRecord.list.label.sector = Sector
 anonymous.companyRecord.list.label.activities = Actividades
-anonymous.companyRecord.list.label.stars = Estrellas
 
 anonymous.companyRecord.form.label.name = Nombre de la compañía:
 anonymous.companyRecord.form.label.sector = Sector:
