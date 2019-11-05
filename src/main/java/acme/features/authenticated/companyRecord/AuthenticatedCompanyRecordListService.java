@@ -47,7 +47,4 @@ public class AuthenticatedCompanyRecordListService implements AbstractListServic
 		return result;
 	}
 
-	public Integer numberOfCompanyRecords() {
-		return this.repository.numCompanyRecord();
-	}
 }

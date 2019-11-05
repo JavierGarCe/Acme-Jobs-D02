@@ -76,7 +76,7 @@
 	  <acme:menu-separator/>
 	  		<acme:menu-suboption code="master.menu.administrator.customization" action="/administrator/customization/list"/>	
     <acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/display"/>
+			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/listing"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">

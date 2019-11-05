@@ -16,7 +16,5 @@ public interface AdministratorAnnouncementRepository extends AbstractRepository 
 	Announcement findOneById(int id);
 	@Query("select a from Announcement a")
 	Collection<Announcement> findManyAll();
-	@Query("select count(*) from Announcement")
-	Integer numberOfAnnouncements();
 
 }

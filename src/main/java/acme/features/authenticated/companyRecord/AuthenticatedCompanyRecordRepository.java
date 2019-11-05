@@ -18,6 +18,4 @@ public interface AuthenticatedCompanyRecordRepository extends AbstractRepository
 	@Query("select c from CompanyRecord c")
 	Collection<CompanyRecord> findManyAll();
 
-	@Query("select count(*) from CompanyRecord c")
-	Integer numCompanyRecord();
 }
