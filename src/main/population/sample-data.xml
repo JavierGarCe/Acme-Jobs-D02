@@ -331,5 +331,25 @@
 		<property name="deadline" value="2018/04/06 15:00"/>
 		<property name="moment" value="2016/04/24 10:30"/>
 	</bean>
+	<!-- Customization parameters -->
+	<bean id="customization" class="acme.entities.customization.Customization">
+		<property name="threshold" value="1.00"/>
+		<property name="spamword">
+			<list>
+				<value>sex</value>
+				<value> hard core</value>
+				<value> viagra</value>
+				<value> cialis</value>
+				<value> nigeria</value>
+				<value> you´ve won</value>
+				<value> million dollar</value>
+				<value> sexo</value>
+				<value> duro</value>
+				<value> has ganado</value>
+				<value> millón de dollares</value>
+			</list>
+		</property>
+	
+	</bean>
 </beans>
   

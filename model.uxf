@@ -387,7 +387,7 @@ Offer
 + ticker: String{Not Blank, Unique,Pattern(regexp="^O[a-zA-Z]{4}-[0-9]{5}$")}</panel_attributes>
     <additional_attributes/>
   </element>
-   <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>500</x>
@@ -409,11 +409,11 @@ CompanyRecord
 +email:String{NotBlank,Email}</panel_attributes>
     <additional_attributes/>
   </element>
-   <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>132</x>
-      <y>426</y>
+      <x>1060</x>
+      <y>670</y>
       <w>216</w>
       <h>66</h>
     </coordinates>
@@ -429,8 +429,8 @@ text: String (NotBlank)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>426</y>
+      <x>1040</x>
+      <y>770</y>
       <w>186</w>
       <h>90</h>
     </coordinates>
@@ -440,15 +440,15 @@ InvestorRecord
 +name: String{NotBlank}
 +sector: String{NotBlank}
 +investingStatement: Money
-+stars: Integer{Min=0,Max=5}
++stars: Integer{Range(0,5)}
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>469</y>
+      <x>1240</x>
+      <y>760</y>
       <w>245</w>
       <h>112</h>
     </coordinates>
@@ -461,6 +461,21 @@ Request
 + ticker: String {NotBlank,Unique}
 + deadline: Date {Temporal (TIMESTAMP)}
 + moment: Date {Temporal (TIMESTAMP),Past}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>810</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Customization
+--
++threshold:Double{Range(0,100)}
++spamword: Collection&lt;String&gt;{NotBlank</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

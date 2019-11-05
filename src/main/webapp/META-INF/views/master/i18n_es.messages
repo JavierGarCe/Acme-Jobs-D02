@@ -74,6 +74,7 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.administrator.listAnnouncements = Listar anuncios
+master.menu.administrator.customization = Customización
 
 # master.menu.provider ########################################################
 

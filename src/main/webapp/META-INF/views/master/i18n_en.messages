@@ -75,6 +75,7 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 
 master.menu.administrator.listAnnouncements = List announcements
+master.menu.administrator.customization = Customization
 
 # master.menu.provider ########################################################
 

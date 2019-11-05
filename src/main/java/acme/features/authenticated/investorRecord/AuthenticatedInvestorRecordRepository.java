@@ -16,6 +16,6 @@ public interface AuthenticatedInvestorRecordRepository extends AbstractRepositor
 	InvestorRecord findOneById(int id);
 
 	@Query("select h from InvestorRecord h")
-	Collection<InvestorRecord> findMany();
+	Collection<InvestorRecord> findManyAll();
 
 }
