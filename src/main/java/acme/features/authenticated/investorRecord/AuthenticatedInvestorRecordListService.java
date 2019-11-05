@@ -42,8 +42,12 @@ public class AuthenticatedInvestorRecordListService implements AbstractListServi
 	public Collection<InvestorRecord> findMany(final Request<InvestorRecord> request) {
 		assert request != null;
 		Collection<InvestorRecord> result;
-		result = this.repository.findMany();
+		result = this.repository.findManyAll();
 		return result;
+	}
+
+	public Integer numberOfInvestorRecords() {
+		return this.repository.numInvestorRecord();
 	}
 
 }

@@ -18,7 +18,5 @@
 <acme:list>
 	<acme:list-column code="authenticated.requests.list.label.title" path="title" />
 	<acme:list-column code="authenticated.requests.list.label.moreInfo" path="moreInfo" />
-	<acme:list-column code="authenticated.requests.list.label.reward" path="reward" />
-	<acme:list-column code="authenticated.requests.list.label.ticker" path="ticker" />
-	
+	<acme:list-column code="authenticated.requests.list.label.reward" path="reward" />	
 </acme:list>

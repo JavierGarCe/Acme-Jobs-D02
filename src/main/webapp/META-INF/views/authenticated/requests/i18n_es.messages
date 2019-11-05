@@ -19,4 +19,3 @@ authenticated.requests.form.button.return = Volver
 authenticated.requests.list.label.title = Título
 authenticated.requests.list.label.moreInfo = Más Información
 authenticated.requests.list.label.reward = Recompensa
-authenticated.requests.list.label.ticker = Código

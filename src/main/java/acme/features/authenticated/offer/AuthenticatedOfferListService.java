@@ -43,5 +43,23 @@ public class AuthenticatedOfferListService implements AbstractListService<Authen
 
 		return result;
 	}
+	public Double stDevMaxActiveOffers() {
+		return this.repository.stDevMaxActiveOffer();
+	}
 
+	public Double stDevMinActiveOffers() {
+		return this.repository.stDevMinActiveOffer();
+	}
+
+	public Double minActiveOffer() {
+		return this.repository.minActiveOffer();
+	}
+
+	public Double maxActiveOffer() {
+		return this.repository.maxActiveOffer();
+	}
+
+	public Double avgActiveOffer() {
+		return (this.repository.avgMinActiveOffer() + this.repository.avgMaxActiveOffer()) / 2;
+	}
 }

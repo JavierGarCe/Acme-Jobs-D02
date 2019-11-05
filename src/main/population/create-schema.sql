@@ -1,3 +1,4 @@
+
 create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -29,6 +30,21 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `challenge` (
+       `id` integer not null,
+        `version` integer not null,
+        `bronze_goal` varchar(255),
+        `bronze_reward` varchar(255),
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `gold_goal` varchar(255),
+        `gold_reward` varchar(255),
+        `silver_goal` varchar(255),
+        `silver_reward` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `company_record` (
        `id` integer not null,
         `version` integer not null,
@@ -44,6 +60,16 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
+ create table `commercial_banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `target_url` varchar(255),
+        `credit_card` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+    
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -51,6 +77,18 @@ create table `administrator` (
         `company` varchar(255),
         `sector` varchar(255),
         primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `customization` (
+       `id` integer not null,
+        `version` integer not null,
+        `threshold` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `customization_spamword` (
+       `customization_id` integer not null,
+        `spamword` varchar(255)
     ) engine=InnoDB;
 
     create table `fernandez_bulletin` (
@@ -95,20 +133,17 @@ create table `administrator` (
         `stars` integer,
         primary key (`id`)
     ) engine=InnoDB;
-    
-    create table `requests` (
+
+   create table `non_commercial_banner` (
        `id` integer not null,
         `version` integer not null,
-        `deadline` datetime(6),
-        `moment` datetime(6),
-        `more_info` varchar(255),
-        `reward_amount` double precision,
-        `reward_currency` varchar(255),
-        `ticker` varchar(255),
-        `title` varchar(255),
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `target_url` varchar(255),
+        `jingle` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-
+    
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
@@ -130,6 +165,19 @@ create table `administrator` (
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `requests` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `moment` datetime(6),
+        `more_info` varchar(255),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -178,12 +226,12 @@ create table `administrator` (
         `nombre` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
-    alter table `requests` 
-       add constraint UK_5v1h0kdr8vcps4i9e55k5gnc8 unique (`ticker`);
 
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
+
+    alter table `requests` 
+       add constraint UK_5v1h0kdr8vcps4i9e55k5gnc8 unique (`ticker`);
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);
@@ -207,6 +255,11 @@ create table `administrator` (
        add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
+
+    alter table `customization_spamword` 
+       add constraint `FKhglffdajso40casyncc1yd1wi` 
+       foreign key (`customization_id`) 
+       references `customization` (`id`);
 
     alter table `provider` 
        add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
