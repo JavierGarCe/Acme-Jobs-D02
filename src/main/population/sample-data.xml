@@ -354,5 +354,25 @@
 		<property name="silverReward" value="10 puntos"/>
 		<property name="bronzeReward" value="5 puntos"/>
 	</bean>
-</beans>
   
+  <!-- Customization parameters -->
+	<bean id="customization" class="acme.entities.customization.Customization">
+		<property name="threshold" value="1.00"/>
+		<property name="spamword">
+			<list>
+				<value>sex</value>
+				<value> hard core</value>
+				<value> viagra</value>
+				<value> cialis</value>
+				<value> nigeria</value>
+				<value> you´ve won</value>
+				<value> million dollar</value>
+				<value> sexo</value>
+				<value> duro</value>
+				<value> has ganado</value>
+				<value> millón de dollares</value>
+			</list>
+		</property>
+	
+	</bean>
+</beans>

@@ -1,5 +1,4 @@
-
-    create table `administrator` (
+create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -67,6 +66,18 @@
         `company` varchar(255),
         `sector` varchar(255),
         primary key (`id`)
+    ) engine=InnoDB;
+
+  create table `customization` (
+       `id` integer not null,
+        `version` integer not null,
+        `threshold` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `customization_spamword` (
+       `customization_id` integer not null,
+        `spamword` varchar(255)
     ) engine=InnoDB;
 
     create table `fernandez_bulletin` (
@@ -223,6 +234,11 @@
        add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
+       
+     alter table `customization_spamword` 
+       add constraint `FKhglffdajso40casyncc1yd1wi` 
+       foreign key (`customization_id`) 
+       references `customization` (`id`);
 
     alter table `provider` 
        add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
