@@ -405,10 +405,10 @@ CompanyRecord
 +activities: String{NotBlank}
 +website: String{URL,NotBlank}
 +phone:String{NotBlank, Pattern(regexp="^([+][0-9]{1,3}\s)?([(][0-9]{1,4}[)]\s)?[0-9]{6,10}$")}
-+inc:Boolean
++incorporated:Boolean
 +stars:Integer{Range(0,5)}
 +email:String{NotBlank,Email}
-+/incName:String{Transient}
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -491,29 +491,6 @@ Challenge
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1284</x>
-      <y>402</y>
-      <w>150</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>incName = name + inc?" Inc.":" LLC"
-bg=white</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1206</x>
-      <y>414</y>
-      <w>90</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
       <x>1578</x>
       <y>378</y>
       <w>84</w>
@@ -567,8 +544,8 @@ Customization
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1134</x>
-      <y>642</y>
+      <x>1086</x>
+      <y>630</y>
       <w>230</w>
       <h>80</h>
     </coordinates>
@@ -584,9 +561,9 @@ Customization
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>978</x>
-      <y>780</y>
-      <w>330</w>
+      <x>936</x>
+      <y>768</y>
+      <w>222</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -598,8 +575,8 @@ CommercialBanner
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1326</x>
-      <y>780</y>
+      <x>1302</x>
+      <y>762</y>
       <w>170</w>
       <h>70</h>
     </coordinates>
@@ -612,23 +589,23 @@ NonCommercialBanner
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>996</x>
-      <y>714</y>
-      <w>174</w>
+      <x>954</x>
+      <y>702</y>
+      <w>168</w>
       <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>270.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>260.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1302</x>
-      <y>714</y>
-      <w>84</w>
-      <h>78</h>
+      <x>1254</x>
+      <y>702</y>
+      <w>108</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;160.0;100.0</additional_attributes>
   </element>
 </diagram>

@@ -30,7 +30,7 @@ public class AdministratorCompanyRecordShowService implements AbstractShowServic
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "sector", "ceo", "activities", "website", "phone", "inc", "stars", "email");
+		request.unbind(entity, model, "name", "sector", "ceo", "activities", "website", "phone", "incorporated", "stars", "email");
 
 	}
 

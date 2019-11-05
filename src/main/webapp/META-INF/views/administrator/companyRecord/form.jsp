@@ -10,7 +10,7 @@
 	<acme:form-textarea code="administrator.companyRecord.form.label.activities" path="activities"/>
 	<acme:form-textbox code="administrator.companyRecord.form.label.website" path="website"/>
 	<acme:form-textbox code="administrator.companyRecord.form.label.phoneNumber" path="phone"/>
-	<acme:form-checkbox code="administrator.companyRecord.form.label.inc" path="inc"/>
+	<acme:form-checkbox code="administrator.companyRecord.form.label.inc" path="incorporated"/>
 	<acme:form-textbox code="administrator.companyRecord.form.label.stars" path="stars"/>
 	<acme:form-textbox code="administrator.companyRecord.form.label.email" path="email"/>
 

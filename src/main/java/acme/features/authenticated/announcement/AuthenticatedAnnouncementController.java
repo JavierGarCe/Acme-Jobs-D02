@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import acme.components.CustomCommand;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
@@ -24,7 +25,7 @@ public class AuthenticatedAnnouncementController extends AbstractController<Auth
 
 	@PostConstruct
 	private void initialize() {
-		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addCustomCommand(CustomCommand.LIST_DATE, BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 	}
 }

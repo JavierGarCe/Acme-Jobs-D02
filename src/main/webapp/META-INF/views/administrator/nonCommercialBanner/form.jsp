@@ -8,6 +8,5 @@
 	<acme:form-textbox code="administrator.banner.nonCommercial.form.label.slogan" path="slogan"/>
 	<acme:form-url code="administrator.banner.nonCommercial.form.label.targetUrl" path="targetUrl"/>
 	<acme:form-textbox code="administrator.banner.nonCommercial.form.label.jingle" path="jingle"/>
-  	
   	<acme:form-return code="administrator.banner.nonCommercial.form.button.return"/>
 </acme:form>
