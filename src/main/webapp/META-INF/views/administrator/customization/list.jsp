@@ -9,14 +9,12 @@
 - purposes.  The copyright owner does not offer any warranties or representations, nor do
 - they accept any liabilities with respect to them.
 --%>
-
 <%@page language="java"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:list>
-	<acme:list-column code="authenticated.requests.list.label.title" path="title" />
-	<acme:list-column code="authenticated.requests.list.label.moreInfo" path="moreInfo" />
-	<acme:list-column code="authenticated.requests.list.label.reward" path="reward" />	
+<acme:list readonly="true">
+	<acme:list-column code="administrator.customization.list.label.spamword" path="spamword" width="90%"/>
+	<acme:list-column code="administrator.customization.list.label.threshold" path="threshold" width="10%"/>
 </acme:list>

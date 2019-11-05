@@ -2,9 +2,9 @@
 package acme.entities.investorRecord;
 
 import javax.persistence.Entity;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+
+import org.hibernate.validator.constraints.Range;
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -30,8 +30,7 @@ public class InvestorRecord extends DomainEntity {
 
 	private Money				investingStatement;
 
-	@Min(value = 0)
-	@Max(value = 5)
+	@Range(min = 0, max = 5)
 	private Integer				stars;
 
 }

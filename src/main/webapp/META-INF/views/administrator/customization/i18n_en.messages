@@ -8,14 +8,10 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.requests.form.label.title = Title
-authenticated.requests.form.label.moreInfo = More Info
-authenticated.requests.form.label.reward = Reward
-authenticated.requests.form.label.ticker = Ticker
-authenticated.requests.form.label.deadline = Deadline
-authenticated.requests.form.button.return = Return
+administrator.customization.form.label.spamword = Spam Word:
+administrator.customization.form.label.threshold = Spam threshold:
+		
+administrator.customization.form.button.return = Return
 
-
-authenticated.requests.list.label.title = Title
-authenticated.requests.list.label.moreInfo = More Info
-authenticated.requests.list.label.reward = Reward
+administrator.customization.list.label.spamword = Spam Word:
+administrator.customization.list.label.threshold = Spam threshold:
