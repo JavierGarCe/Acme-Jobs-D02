@@ -564,4 +564,72 @@ Customization
 +spamword: Collection&lt;String&gt;{NotBlank</panel_attributes>
     <additional_attributes/>
   </element>
+   <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1240</x>
+      <y>650</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+/Banner/
+--
++ picture: String
++ slogan: String{NotBlank}
++ targetURL: String{NotBlank,URL}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>760</y>
+      <w>330</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CommercialBanner
+--
++ creditCard: String{NotBlank, CreditCardNumber]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1480</x>
+      <y>760</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+NonCommercialBanner
+--
++jingle:String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1120</x>
+      <y>650</y>
+      <w>140</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1460</x>
+      <y>650</y>
+      <w>90</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;110.0</additional_attributes>
+  </element>
+</diagram>
 </diagram>

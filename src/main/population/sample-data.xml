@@ -375,4 +375,33 @@
 		</property>
 	
 	</bean>
+  
+  <!--  Commercial Banners -->
+	<bean id="commercialBanner01" class="acme.entities.banners.CommercialBanner">
+		<property name="picture" value="Acme picture"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://example.com/"/>
+		<property name="creditCard" value="4532465121106631"/>
+	</bean>
+	
+	<bean id="commercialBanner02" class="acme.entities.banners.CommercialBanner">
+		<property name="picture" value="Test picture"/>
+		<property name="slogan" value="Test slogan"/>
+		<property name="targetUrl" value="https://example.com/"/>
+		<property name="creditCard" value="6011412594170202"/>
+	</bean>
+	
+	<!-- Non Commercial Banners -->
+	<bean id="nonCommercialBanner01" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="Acme picture"/>
+		<property name="slogan" value="Acme slogan"/>
+		<property name="targetUrl" value="https://example.com/"/>
+		<property name="jingle" value="Acme jingle"/>
+	</bean>
+	
+	<bean id="nonCommercialBanner02" class="acme.entities.banners.NonCommercialBanner">
+		<property name="picture" value="Test with no jingle"/>
+		<property name="slogan" value="Test slogan"/>
+		<property name="targetUrl" value="https://example.com/"/>
+	</bean>
 </beans>
