@@ -18,4 +18,6 @@ public interface AuthenticatedInvestorRecordRepository extends AbstractRepositor
 	@Query("select h from InvestorRecord h")
 	Collection<InvestorRecord> findManyAll();
 
+	@Query("select count(*) from InvestorRecord i")
+	Integer numInvestorRecord();
 }
