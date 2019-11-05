@@ -17,4 +17,7 @@ public interface AnonymousCompanyRecordRepository extends AbstractRepository {
 
 	@Query("select c from CompanyRecord c")
 	Collection<CompanyRecord> findManyAll();
+
+	@Query("select count(h), h.sector from CompanyRecord h group by h.sector")
+	Object[] companiesBySector();
 }

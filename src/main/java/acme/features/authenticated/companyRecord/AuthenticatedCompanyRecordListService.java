@@ -47,4 +47,19 @@ public class AuthenticatedCompanyRecordListService implements AbstractListServic
 
 		return result;
 	}
+
+	public Object[] getCompaniesBySector() {
+
+		return this.repository.companiesBySector();
+	}/*
+		 * public Collection<Long> convierteACollection(final Object[] objetos) {
+		 * List<Long> res = new ArrayList<>();
+		 * for (Object i : objetos) {
+		 * res.add((Long) i);
+		 * }
+		 * 
+		 * return res;
+		 * 
+		 * }
+		 */
 }

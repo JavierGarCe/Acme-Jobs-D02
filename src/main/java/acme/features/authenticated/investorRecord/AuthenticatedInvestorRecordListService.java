@@ -1,7 +1,9 @@
 
 package acme.features.authenticated.investorRecord;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -44,6 +46,20 @@ public class AuthenticatedInvestorRecordListService implements AbstractListServi
 		Collection<InvestorRecord> result;
 		result = this.repository.findMany();
 		return result;
+	}
+
+	public Collection<Long> getInvestorsBySector() {
+
+		return this.convierteACollection(this.repository.investorsBySector());
+	}
+	public Collection<Long> convierteACollection(final Object[] objetos) {
+		List<Long> res = new ArrayList<>();
+		for (Object i : objetos) {
+			res.add((Long) i);
+		}
+
+		return res;
+
 	}
 
 }

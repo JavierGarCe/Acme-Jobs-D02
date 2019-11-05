@@ -18,4 +18,7 @@ public interface AuthenticatedInvestorRecordRepository extends AbstractRepositor
 	@Query("select h from InvestorRecord h")
 	Collection<InvestorRecord> findMany();
 
+	@Query("select count(h) from InvestorRecord h group by h.sector")
+	Object[] investorsBySector();
+
 }
