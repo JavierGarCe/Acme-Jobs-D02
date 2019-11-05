@@ -1,8 +1,6 @@
 anonymous.companyRecord.list.label.name =  Company's name
 anonymous.companyRecord.list.label.sector = Sector
 anonymous.companyRecord.list.label.activities = Activities
-anonymous.companyRecord.list.label.website = Web Site
-anonymous.companyRecord.list.label.phoneNumber = Phone Number
 anonymous.companyRecord.list.label.stars = Stars
 
 anonymous.companyRecord.form.label.name = Company's name:

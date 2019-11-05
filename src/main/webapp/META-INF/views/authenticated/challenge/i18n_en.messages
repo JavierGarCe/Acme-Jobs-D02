@@ -8,24 +8,17 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.Challenge.form.label.title = title
-authenticated.Challenge.form.label.deadline = deadline
-authenticated.Challenge.form.label.description = description
-authenticated.Challenge.form.label.goldGoal =  gold goal
-authenticated.Challenge.form.label.goldReward = gold reward
-authenticated.Challenge.form.label.silverGoal = silver goal
-authenticated.Challenge.form.label.silverReward = silver reward
-authenticated.Challenge.form.label.bronzeGoal = bronze goal
-authenticated.Challenge.form.label.bronzeReward = bronze reward
+authenticated.Challenge.form.label.title = Title
+authenticated.Challenge.form.label.deadline = Deadline
+authenticated.Challenge.form.label.description = Description
+authenticated.Challenge.form.label.goldGoal =  Gold goal
+authenticated.Challenge.form.label.goldReward = Gold reward
+authenticated.Challenge.form.label.silverGoal = Silver goal
+authenticated.Challenge.form.label.silverReward = Silver reward
+authenticated.Challenge.form.label.bronzeGoal = Bronze goal
+authenticated.Challenge.form.label.bronzeReward = Bronze reward
 
-authenticated.Challenge.form.button.return = return
+authenticated.Challenge.form.button.return = Return
 
-authenticated.challenge.list.label.title = title
-authenticated.challenge.list.label.deadline = deadline
-authenticated.challenge.list.label.description = description
-authenticated.challenge.list.label.goldReward = Gold reward
-authenticated.challenge.list.label.goldGoal = Gold goal
-authenticated.challenge.list.label.silverReward = Silver reward
-authenticated.challenge.list.label.silverGoal = Silver goal
-authenticated.challenge.list.label.bronzeReward = Bronze reward
-authenticated.challenge.list.label.bronzeGoal = Bronze goal
+authenticated.challenge.list.label.title = Title
+authenticated.challenge.list.label.description = Description

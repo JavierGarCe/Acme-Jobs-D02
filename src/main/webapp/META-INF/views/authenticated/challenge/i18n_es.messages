@@ -9,25 +9,19 @@
 # they accept any liabilities with respect to them.
 
 
-authenticated.Challenge.form.label.title = titulo
-authenticated.Challenge.form.label.deadline = fecha límite
-authenticated.Challenge.form.label.description = descripción
-authenticated.Challenge.form.label.goldGoal =  objetivo de oro
-authenticated.Challenge.form.label.goldReward =  premio de oro
-authenticated.Challenge.form.label.silverGoal = objetivo de plata
-authenticated.Challenge.form.label.silverReward = premio de plata
-authenticated.Challenge.form.label.bronzeGoal = objetivo de bronce
-authenticated.Challenge.form.label.bronzeReward = premio de bronce
+authenticated.Challenge.form.label.title = Título
+authenticated.Challenge.form.label.deadline = Fecha límite
+authenticated.Challenge.form.label.description = Descripción
+authenticated.Challenge.form.label.goldGoal =  Objetivo de oro
+authenticated.Challenge.form.label.goldReward =  Premio de oro
+authenticated.Challenge.form.label.silverGoal = Objetivo de plata
+authenticated.Challenge.form.label.silverReward = Premio de plata
+authenticated.Challenge.form.label.bronzeGoal = Objetivo de bronce
+authenticated.Challenge.form.label.bronzeReward = Premio de bronce
 
 
-authenticated.Challenge.form.button.return = volver
+authenticated.Challenge.form.button.return = Volver
 
 authenticated.challenge.list.label.title = Título
-authenticated.challenge.list.label.deadline = Fecha límite
-authenticated.challenge.list.label.description = descripción
-authenticated.challenge.list.label.goldReward = Premio de oro
-authenticated.challenge.list.label.goldGoal = Objetivo para el oro
-authenticated.challenge.list.label.silverReward = Premio de plata
-authenticated.challenge.list.label.silverGoal = Objetivo para la plata
-authenticated.challenge.list.label.bronzeReward = Premio de bronce
-authenticated.challenge.list.label.bronzeGoal = Objetivo para el bronce
+authenticated.challenge.list.label.description = Descripción
+

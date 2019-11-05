@@ -17,14 +17,5 @@
 
 <acme:list>
 	<acme:list-column code="authenticated.challenge.list.label.title" path="title" width="20%"/>
-	<acme:list-column code="authenticated.challenge.list.label.deadline" path="deadline" width="20%"/>
-	<acme:list-column code="authenticated.challenge.list.label.description" path="description" width="60%"/>
-	<acme:list-column code="authenticated.challenge.list.label.goldGoal" path="goldGoal" width="20%"/>
-	<acme:list-column code="authenticated.challenge.list.label.goldReward" path="goldReward" width="20%"/>
-		<acme:list-column code="authenticated.challenge.list.label.silverGoal" path="silverGoal" width="20%"/>
-	<acme:list-column code="authenticated.challenge.list.label.silverReward" path="silverReward" width="20%"/>
-		<acme:list-column code="authenticated.challenge.list.label.bronzeGoal" path="bronzeGoal" width="20%"/>
-	<acme:list-column code="authenticated.challenge.list.label.bronzeReward" path="bronzeReward" width="20%"/>
-	
-
+	<acme:list-column code="authenticated.challenge.list.label.description" path="description" width="60%"/>	
 </acme:list>
