@@ -15,10 +15,6 @@
        drop 
        foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
 
-    alter table `customization_spamword` 
-       drop 
-       foreign key `FKhglffdajso40casyncc1yd1wi`;
-
     alter table `provider` 
        drop 
        foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
@@ -38,8 +34,6 @@
     drop table if exists `consumer`;
 
     drop table if exists `customization`;
-
-    drop table if exists `customization_spamword`;
 
     drop table if exists `fernandez_bulletin`;
 
