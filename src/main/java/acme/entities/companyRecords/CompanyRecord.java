@@ -2,7 +2,6 @@
 package acme.entities.companyRecords;
 
 import javax.persistence.Entity;
-import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -43,7 +42,7 @@ public class CompanyRecord extends DomainEntity {
 	private String				phone;
 
 	@NotNull
-	private Boolean				inc;
+	private Boolean				incorporated;
 
 	@Range(min = 0, max = 5)
 	private Integer				stars;
@@ -52,19 +51,4 @@ public class CompanyRecord extends DomainEntity {
 	@Email
 	private String				email;
 
-
-	@Transient
-	public String getIncName() {
-		StringBuilder result;
-
-		result = new StringBuilder();
-		result.append(this.name);
-		result.append(" ");
-		if (this.inc) {
-			result.append("Inc.");
-		} else {
-			result.append("LLC");
-		}
-		return result.toString();
-	}
 }

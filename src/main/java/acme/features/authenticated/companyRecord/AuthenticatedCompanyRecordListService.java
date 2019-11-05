@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.companyRecords.CompanyRecord;
-import acme.features.anonymous.companyRecord.AnonymousCompanyRecordRepository;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Authenticated;
@@ -17,7 +16,7 @@ import acme.framework.services.AbstractListService;
 public class AuthenticatedCompanyRecordListService implements AbstractListService<Authenticated, CompanyRecord> {
 
 	@Autowired
-	AnonymousCompanyRecordRepository repository;
+	AuthenticatedCompanyRecordRepository repository;
 
 
 	@Override
@@ -33,7 +32,7 @@ public class AuthenticatedCompanyRecordListService implements AbstractListServic
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "incName", "sector", "activities");
+		request.unbind(entity, model, "name", "sector", "activities");
 
 	}
 
@@ -46,5 +45,9 @@ public class AuthenticatedCompanyRecordListService implements AbstractListServic
 		result = this.repository.findManyAll();
 
 		return result;
+	}
+
+	public Integer numberOfCompanyRecords() {
+		return this.repository.numCompanyRecord();
 	}
 }

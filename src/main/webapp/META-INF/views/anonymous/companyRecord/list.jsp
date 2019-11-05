@@ -5,7 +5,7 @@
 
 
 <acme:list>	
-	<acme:list-column code="anonymous.companyRecord.list.label.name" path="incName" width="20%"/>
+	<acme:list-column code="anonymous.companyRecord.list.label.name" path="name" width="20%"/>
 	<acme:list-column code="anonymous.companyRecord.list.label.sector" path="sector" width="20%"/>
 	<acme:list-column code="anonymous.companyRecord.list.label.activities" path="activities" width="25%"/>
 </acme:list>
