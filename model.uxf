@@ -432,8 +432,8 @@ text: String (NotBlank)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1040</x>
-      <y>770</y>
+      <x>882</x>
+      <y>534</y>
       <w>186</w>
       <h>90</h>
     </coordinates>
@@ -552,8 +552,8 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
-      <y>810</y>
+      <x>1092</x>
+      <y>540</y>
       <w>230</w>
       <h>70</h>
     </coordinates>

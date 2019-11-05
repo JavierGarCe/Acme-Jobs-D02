@@ -1,4 +1,5 @@
-create table `administrator` (
+
+    create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -68,7 +69,7 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
-  create table `customization` (
+    create table `customization` (
        `id` integer not null,
         `version` integer not null,
         `threshold` double precision,
@@ -234,8 +235,8 @@ create table `administrator` (
        add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
-       
-     alter table `customization_spamword` 
+
+    alter table `customization_spamword` 
        add constraint `FKhglffdajso40casyncc1yd1wi` 
        foreign key (`customization_id`) 
        references `customization` (`id`);
