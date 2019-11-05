@@ -16,7 +16,6 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="authenticated.requests.list.label.title" path="title" />
-	<acme:list-column code="authenticated.requests.list.label.moreInfo" path="moreInfo" />
-	<acme:list-column code="authenticated.requests.list.label.reward" path="reward" />	
+	<acme:list-column code="authenticated.challenge.list.label.title" path="title" width="20%"/>
+	<acme:list-column code="authenticated.challenge.list.label.description" path="description" width="60%"/>	
 </acme:list>

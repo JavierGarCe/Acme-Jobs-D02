@@ -1,7 +1,10 @@
 
 package acme.features.anonymous.announcement;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Collection;
+import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,7 +43,16 @@ public class AnonymousAnnouncementListService implements AbstractListService<Ano
 		assert request != null;
 
 		Collection<Announcement> result;
-		result = this.repository.findManyAll();
+
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy/MM/dd HH:mm");
+		Date date = new Date(System.currentTimeMillis());
+		formatter.format(date);
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(date);
+		cal.add(Calendar.MONTH, -1);
+		date = cal.getTime();
+
+		result = this.repository.findManyAll(date);
 		return result;
 	}
 

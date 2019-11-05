@@ -184,24 +184,12 @@
 		<property name="stars" value="3" />
 		<property name="email" value="test@email.com" />
 	</bean>
-	
-	<bean id="companyRecord04" class="acme.entities.companyRecords.CompanyRecord">
+		
+		<bean id="companyRecord04" class="acme.entities.companyRecords.CompanyRecord">
 		<property name="name" value="Test Company" />
 		<property name="sector" value="Test sector" />
 		<property name="ceo" value="Test CEO" />
-		<property name="activities" value="This is a test with no value in Inc." />
-		<property name="website" value="https://example.com/" />
-		<property name="phone" value="+999 (999) 9999999999" />
-		<property name="inc" value="True" />
-		<property name="stars" value="3" />
-		<property name="email" value="test@email.com" />
-	</bean>
-	
-		<bean id="companyRecord05" class="acme.entities.companyRecords.CompanyRecord">
-		<property name="name" value="Test Company" />
-		<property name="sector" value="Test sector" />
-		<property name="ceo" value="Test CEO" />
-		<property name="activities" value="This is a test with no value inc Inc. and stars" />
+		<property name="activities" value="This is a test with no value stars" />
 		<property name="website" value="https://example.com/" />
 		<property name="phone" value="+999 (9999) 9999999999" />
 		<property name="inc" value="False" />
@@ -331,7 +319,43 @@
 		<property name="deadline" value="2018/04/06 15:00"/>
 		<property name="moment" value="2016/04/24 10:30"/>
 	</bean>
-	<!-- Customization parameters -->
+  
+  <!-- Challenges -->
+  <bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="aplicacion de ofertas"/>
+		<property name="deadline" value="2020/11/23 10:00"/>
+		<property name="description" value="consigue puntos aplicando a ofertas"/>
+		<property name="goldGoal" value="aplicar a 15 ofertas"/>
+		<property name="silverGoal" value="aplicar a 10 ofertas"/>
+		<property name="bronzeGoal" value="aplicar a 5 ofertas"/>
+		<property name="goldReward" value="15 puntos"/>
+		<property name="silverReward" value="10 puntos"/>
+		<property name="bronzeReward" value="5 puntos"/>
+	</bean>
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="ofertar empleos"/>
+		<property name="deadline" value="2022/11/23 10:00"/>
+		<property name="description" value="consigue puntos ofertando empleos"/>
+		<property name="goldGoal" value="ofertar 3 empleos"/>
+		<property name="silverGoal" value="ofertar 2 empleos"/>
+		<property name="bronzeGoal" value="ofertar 1 empleo"/>
+		<property name="goldReward" value="15 puntos"/>
+		<property name="silverReward" value="10 puntos"/>
+		<property name="bronzeReward" value="5 puntos"/>
+	</bean>
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="entrar a la web"/>
+		<property name="deadline" value="2021/10/30 16:30"/>
+		<property name="description" value="consigue puntos entrando a la web"/>
+		<property name="goldGoal" value="entrar 5 dias a la web"/>
+		<property name="silverGoal" value="entrar 3 dias a la web"/>
+		<property name="bronzeGoal" value="entrar 1 dia a la web"/>
+		<property name="goldReward" value="15 puntos"/>
+		<property name="silverReward" value="10 puntos"/>
+		<property name="bronzeReward" value="5 puntos"/>
+	</bean>
+  
+  <!-- Customization parameters -->
 	<bean id="customization" class="acme.entities.customization.Customization">
 		<property name="threshold" value="1.00"/>
 		<property name="spamword">
@@ -352,4 +376,3 @@
 	
 	</bean>
 </beans>
-  

@@ -1,5 +1,4 @@
-
-    create table `administrator` (
+create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -30,6 +29,21 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `challenge` (
+       `id` integer not null,
+        `version` integer not null,
+        `bronze_goal` varchar(255),
+        `bronze_reward` varchar(255),
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `gold_goal` varchar(255),
+        `gold_reward` varchar(255),
+        `silver_goal` varchar(255),
+        `silver_reward` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `company_record` (
        `id` integer not null,
         `version` integer not null,
@@ -54,7 +68,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `customization` (
+  create table `customization` (
        `id` integer not null,
         `version` integer not null,
         `threshold` double precision,
@@ -220,8 +234,8 @@
        add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
-
-    alter table `customization_spamword` 
+       
+     alter table `customization_spamword` 
        add constraint `FKhglffdajso40casyncc1yd1wi` 
        foreign key (`customization_id`) 
        references `customization` (`id`);

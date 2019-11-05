@@ -67,6 +67,7 @@ master.menu.authenticated.offers = List Offers
 master.menu.authenticated.listAnnouncements = List Announcements
 master.menu.authenticated.listInvestorRecord = List Investor Records
 master.menu.authenticated.requests.list = List Requests
+master.menu.authenticated.challenge = List Challenges
 
 # master.menu.administrator ###################################################
 
