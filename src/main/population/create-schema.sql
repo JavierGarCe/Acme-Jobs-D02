@@ -1,5 +1,5 @@
 
-create table `administrator` (
+    create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -45,6 +45,16 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `commercial_banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `target_url` varchar(255),
+        `credit_card` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `company_record` (
        `id` integer not null,
         `version` integer not null,
@@ -60,16 +70,6 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
- create table `commercial_banner` (
-       `id` integer not null,
-        `version` integer not null,
-        `picture` varchar(255),
-        `slogan` varchar(255),
-        `target_url` varchar(255),
-        `credit_card` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-    
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -134,7 +134,7 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
-   create table `non_commercial_banner` (
+    create table `non_commercial_banner` (
        `id` integer not null,
         `version` integer not null,
         `picture` varchar(255),
@@ -143,7 +143,7 @@ create table `administrator` (
         `jingle` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
+
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
