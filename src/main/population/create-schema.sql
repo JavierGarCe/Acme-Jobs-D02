@@ -1,4 +1,5 @@
-create table `administrator` (
+
+    create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -78,14 +79,13 @@ create table `administrator` (
         primary key (`id`)
     ) engine=InnoDB;
 
-     create table `customization` (
+    create table `customization` (
        `id` integer not null,
         `version` integer not null,
         `spamword` varchar(255),
         `threshold` double precision,
         primary key (`id`)
     ) engine=InnoDB;
-
 
     create table `fernandez_bulletin` (
        `id` integer not null,
