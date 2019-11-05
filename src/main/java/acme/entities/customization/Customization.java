@@ -1,11 +1,8 @@
 
 package acme.entities.customization;
 
-import java.util.Collection;
-
-import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
+import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.Range;
 
@@ -26,7 +23,7 @@ public class Customization extends DomainEntity {
 	@Range(min = 0, max = 100)
 	private Double				threshold;
 
-	@ElementCollection(fetch = FetchType.EAGER)
-	private Collection<String>	spamword;
+	@NotBlank
+	private String				spamword;
 
 }

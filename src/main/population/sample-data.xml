@@ -363,22 +363,7 @@
   <!-- Customization parameters -->
 	<bean id="customization" class="acme.entities.customization.Customization">
 		<property name="threshold" value="1.00"/>
-		<property name="spamword">
-			<list>
-				<value>sex</value>
-				<value> hard core</value>
-				<value> viagra</value>
-				<value> cialis</value>
-				<value> nigeria</value>
-				<value> you´ve won</value>
-				<value> million dollar</value>
-				<value> sexo</value>
-				<value> duro</value>
-				<value> has ganado</value>
-				<value> millón de dollares</value>
-			</list>
-		</property>
-	
+		<property name="spamword" value="sex, hard core, viagra, cialis, nigeria, you´ve won, million dollar, sexo, duro, has ganado, millón de dolares"/>
 	</bean>
   
   <!--  Commercial Banners -->
