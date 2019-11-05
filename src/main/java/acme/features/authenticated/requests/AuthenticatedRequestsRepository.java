@@ -18,12 +18,4 @@ public interface AuthenticatedRequestsRepository extends AbstractRepository {
 	@Query("select r from Requests r where r.deadline >= current_date")
 	Collection<Requests> findManyAll();
 
-	@Query("select avg(reward.amount) from Requests r where r.deadline >= current_date")
-	Double avgActiveRequests();
-	@Query("select min(reward.amount) from Requests r where r.deadline >= current_date")
-	Double minActiveRequests();
-	@Query("select max(reward.amount) from Requests r where r.deadline >= current_date")
-	Double maxActiveRequests();
-	@Query("select stddev(reward.amount) from Requests r where r.deadline >= current_date")
-	Double stDevActiveRequests();
 }

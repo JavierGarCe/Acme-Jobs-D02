@@ -6,7 +6,5 @@
 <acme:list>
 	<acme:list-column code="administrator.banner.nonCommercial.label.picture" path="picture" width="25%"/>
 	<acme:list-column code="administrator.banner.nonCommercial.label.slogan" path="slogan" width="25%"/>	
-	<acme:list-column code="administrator.banner.nonCommercial.label.targetUrl" path="targetUrl" width="25%"/>
-	<acme:list-column code="administrator.banner.nonCommercial.label.jingle" path="jingle" width="25%"/>
 	
 </acme:list>

@@ -43,7 +43,5 @@ public class AdministratorAnnouncementListService implements AbstractListService
 		result = this.repository.findManyAll();
 		return result;
 	}
-	public Integer numberOfAnnouncements() {
-		return this.repository.numberOfAnnouncements();
-	}
+
 }

@@ -1,7 +1,5 @@
 administrator.banner.nonCommercial.label.picture = Imagen
 administrator.banner.nonCommercial.label.slogan = Slogan 
-administrator.banner.nonCommercial.label.targetUrl = URL imagen
-administrator.banner.nonCommercial.label.jingle = Canción publicitaria
 
 administrator.banner.nonCommercial.form.label.picture = Imagen:
 administrator.banner.nonCommercial.form.label.slogan = Slogan:

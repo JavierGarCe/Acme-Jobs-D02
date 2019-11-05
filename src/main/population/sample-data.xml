@@ -281,12 +281,14 @@
 		<property name="investingStatement" value="800 EUR"/>
 		<property name="stars" value="1"/>
 	</bean>
-  	<bean id="investorRecord04" class="acme.entities.investorRecord.InvestorRecord">
-		<property name="name" value="re"/>
-		<property name="sector" value="43"/>
+	
+	<bean id="investorRecord04" class="acme.entities.investorRecord.InvestorRecord">
+		<property name="name" value="Leslie"/>
+		<property name="sector" value="Test sector"/>
 		<property name="investingStatement" value="800 EUR"/>
-		<property name="stars" value="5"/>
+		<property name="stars" value="1"/>
 	</bean>
+
   	<!-- Request -->
   
 	<bean id="request01" class="acme.entities.requests.Requests">

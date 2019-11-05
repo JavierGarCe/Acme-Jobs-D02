@@ -1,7 +1,5 @@
 administrator.banner.commercial.label.picture = Imagen
 administrator.banner.commercial.label.slogan = Slogan 
-administrator.banner.commercial.label.targetUrl = URL imagen
-administrator.banner.commercial.label.creditCard = Número tarjeta de crédito
 
 administrator.banner.commercial.form.label.picture = Imagen:
 administrator.banner.commercial.form.label.slogan = Slogan:

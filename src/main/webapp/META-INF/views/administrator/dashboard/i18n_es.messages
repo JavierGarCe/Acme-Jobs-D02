@@ -1,19 +1,14 @@
-numberOfAnnouncement = Número total de anuncios:
-numberOfCompanyRecords = Número total de compañías:
-numberOfInvestorRecords = Número total de registros de inversores: 
-minActiveRequests = Recompensa mínima de peticiones activas:
-maxActiveRequests = Recompensa máxima de peticiones activas:
-avgActiveRequests = Recompensa media de peticiones activas:
-stDevRActiveRequests = Desviación estándar de la recompensa de las peticiones activas:
-minActiveOffers = Recompensa mínima de ofertas activas:
-maxActiveOffers = Recompensa máxima de ofertas activas:
-avgActiveOffers =  Recompensa media de ofertas activas:
-stDevMinActiveOffers =  Desviación estándar de la recompensa mínima de las ofertas activas:
-stDevMaxActiveOffers =  Desviación estándar de la recompensa máxima de las ofertas activas:
+administrator.dashboard.form.label.numberOfAnnouncements = Número de anuncios:
+administrator.dashboard.form.label.numberOfCompanyRecords = Número de compañías:
+administrator.dashboard.form.label.numberOfInvestorRecords = Número de inversores:
+administrator.dashboard.form.label.minActiveRequests = Mínima petición activa:
+administrator.dashboard.form.label.maxActiveRequests = Máxima petición activa:
+administrator.dashboard.form.label.avgActiveRequests = Media peticiones activas:
+administrator.dashboard.form.label.stDevRActiveRequests = Desviación estándar peticiones activas:
+administrator.dashboard.form.label.minActiveOffers = Mínima oferta activa:
+administrator.dashboard.form.label.maxActiveOffers = Máxima oferta activa:
+administrator.dashboard.form.label.avgActiveOffers = Media ofertas activas:
+administrator.dashboard.form.label.stDevMaxActiveOffers = Desviación estándar máxima recompesnsa ofertas activas:
+administrator.dashboard.form.label.stDevMinActiveOffers = Desviación estándar mínima recompesnsa ofertas activas:
 
-
-Announcement = Anuncios
-CompanyRecords = Registros de compañías
-InvestorRecords = Registros de inversores
-ActiveRequests = Peticiones activas
-ActiveOffers = Ofertas activas
+administrator.dashboard.form.button.return = Volver

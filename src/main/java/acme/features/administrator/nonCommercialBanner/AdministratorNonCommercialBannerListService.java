@@ -32,7 +32,7 @@ public class AdministratorNonCommercialBannerListService implements AbstractList
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "picture", "slogan", "targetUrl", "jingle");
+		request.unbind(entity, model, "picture", "slogan");
 
 	}
 

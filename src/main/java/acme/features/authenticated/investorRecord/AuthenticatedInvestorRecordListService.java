@@ -46,8 +46,4 @@ public class AuthenticatedInvestorRecordListService implements AbstractListServi
 		return result;
 	}
 
-	public Integer numberOfInvestorRecords() {
-		return this.repository.numInvestorRecord();
-	}
-
 }
