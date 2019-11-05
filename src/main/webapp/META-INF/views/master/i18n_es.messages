@@ -66,6 +66,7 @@ master.menu.authenticated.offers = Lista de ofertas
 master.menu.authenticated.listAnnouncements = Lista de anuncios
 master.menu.authenticated.listInvestorRecord = Lista de registros de inversores
 master.menu.authenticated.requests.list = Lista de peticiones
+master.menu.authenticated.challenge = Lista de desafíos
 
 # master.menu.administrator ###################################################
 
@@ -74,7 +75,15 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.administrator.listAnnouncements = Listar anuncios
+
 master.menu.administrator.dashboard = Lista de indicadores 
+
+master.menu.administrator.customization = Customización
+
+master.menu.administrator.listCommercialBanners = Listar banners comerciales
+
+master.menu.administrator.listNonCommercialBanners = Listar banners no comerciales
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
@@ -130,4 +139,3 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-

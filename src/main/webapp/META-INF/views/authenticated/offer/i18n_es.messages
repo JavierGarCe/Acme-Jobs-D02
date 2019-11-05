@@ -10,6 +10,6 @@ authenticated.offer.form.label.description = Descripción:
 authenticated.offer.form.panel.reward = Recompensa
 authenticated.offer.form.labbel.minReward = Recompensa mínima:
 authenticated.offer.form.labbel.maxReward = Recompensa máxima:
-authenticated.offer.form.labbel.ticker = Símbolo bursatil:
+authenticated.offer.form.labbel.ticker = Código:
 
 authenticated.offer.form.button.return = Volver
