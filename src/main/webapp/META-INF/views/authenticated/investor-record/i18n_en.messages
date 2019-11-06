@@ -16,3 +16,4 @@ authenticated.investor-record.form.button.return = Return
 
 authenticated.investor-record.list.label.name = Name
 authenticated.investor-record.list.label.sector = Sector
+authenticated.investor-record.list.label.stars = Stars
